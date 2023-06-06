@@ -1,0 +1,10 @@
+config load "D:\milestone2DeviceBuilder\milestone2\milestone2.ioc"
+project toolchain STM32CubeIDE
+
+SetStructure Advanced
+
+project setCustomFWPath "Y:\ST\STM32Cube\STM32CubeFWRepo\STM32Cube_FW_F4_V1.26.2"
+
+project generate 
+
+exit wait
